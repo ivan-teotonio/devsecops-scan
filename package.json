@@ -1,0 +1,15 @@
+{
+  "name": "devsecops-scan-demo",
+  "version": "1.0.0",
+  "description": "Aplicacao web simples (API de notas) usada como alvo para demonstrar uma pipeline DevSecOps com SAST, SCA e DAST integrados ao CI/CD",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node tests/smoke-test.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "lodash": "4.17.15"
+  }
+}
